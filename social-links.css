@@ -1,0 +1,80 @@
+body{
+  font-family: Inter;
+  font-size: 0.875rem;
+  background-color:hsl(0, 0%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3.75rem;
+  height: 100vh;
+}
+.profile{
+  width: 4.06rem;
+  border-radius: 50%;
+  margin-top: 1.875rem;
+  margin-bottom: 1.25rem;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  border-style: solid ;
+  border: none;
+  border-radius: 0.9375rem;
+  width: 18.75rem;
+  height: 28.125rem;
+  background-color:hsl(0, 0%, 12%) ;
+  transform: scale(1.2);
+  transform-origin: center;
+}
+.name{
+  color: white;
+  font-weight: 500;
+  font-size: 1.125rem;
+  margin-bottom: 0.3125rem;
+  
+}
+.country{
+  color:hsl(75, 94%, 57%) ;
+  font-size: 0.625rem;
+  margin-bottom: 1.125rem;
+  font-weight: 600;
+}
+.info{
+  color:hsl(0, 0%, 65%);
+  font-size: 0.625rem;
+  margin-bottom: 1.125rem;
+}
+button{
+  width: 15.625rem;
+  margin-bottom: 0.625rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.875rem;
+  border-radius: 0.3125rem;
+  border-style: solid;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 0.625rem;
+  background-color: hsl(0, 0%, 20%);
+  cursor: pointer;
+  
+}
+@media (max-width: 430px) {
+  main{
+    transform: scale(1);
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+    
+  }
+  button{
+    width: 100%;
+    font-size: 0.75rem;
+    
+  }
+  .profile{
+    width: 4rem;
+  }
+}
